@@ -9,3 +9,12 @@ else if(age >= 80) {
 else{
     console.log('No you cant vote')
 }
+
+
+// terniary opeartor can be used if you have if and else
+
+age >= 18 ? console.log('yes') : console.log('No')
+
+
+// switch case
+
