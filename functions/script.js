@@ -40,9 +40,25 @@ console.log('The result is ' + d)
 
 // exersise
 
-function addNumbers(...args){
-    return args.reduce((a, b) => a + b);
+// function addNumbers(...args){
+//     return args.reduce((a, b) => a + b);
+
+// }
+
+// console.log(addNumbers(1,2,3,3,4,5))
+
+
+function addNumbers(){
+    for (let i=0; i<arguments.length; i++){
+        ans = ans + arguments[i];
+    }
+
+    return ans;
+
+
+//  console.log(arguments)
 
 }
 
-console.log(addNumbers(1,2,3,3,4,5))
+let result = addNumbers(1,2,3,4,5)
+console.log(result)
